@@ -1,0 +1,62 @@
+body {
+    background: url('image/фон.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 20% 1fr 20%;
+    height: 90vh;
+}
+.nav {
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    font-size: larger;
+}
+.box {
+    margin: 10px;
+    padding: 30px;
+    justify-content: center;
+}
+.button {
+    background-color: rgb(105, 105, 215);
+    border-radius: 20%;
+    position: absolute; right: 20px; top: 50px;"
+}
+.conteiner {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.cell {
+    display: grid;
+    margin: 20px;
+    padding: 50px;
+    justify-items: center;
+    font-size:x-large;
+}
+input {
+    background-color: rgb(86, 86, 148);
+    font-size: large;
+}
+.footer {
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 20% repeat(3, 1fr);
+    font-size: large;
+}
+.button2 {
+    background-color: rgb(56, 56, 95);
+    border-radius: 20%;
+    margin: 10%;
+    text-align: center;
+    padding: 5%;
+}
+.box7 {
+    display: grid;
+    margin: 10px;
+    padding: 30px;
+    justify-content: center;
+}
