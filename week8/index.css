@@ -1,0 +1,48 @@
+/* Основные стили */
+body {
+    font-family: 'Arial', sans-serif;
+}
+/* Стили навигационной панели */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #333;
+}
+/* Стили заголовка */
+.jumbotron {
+    background-color: #f8f9fa;
+    color: #333;
+}
+/* Стили карточек */
+.card {
+    margin-bottom: 20px;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+/* Стили кнопок */
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+/* Стили подвала */
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+}
+/* Медиа запросы для адаптивности */
+@media (max-width: 576px) {
+    .jumbotron {
+    padding: 2rem 1rem;
+    }
+.card {
+    margin-bottom: 15px;
+    }
+}

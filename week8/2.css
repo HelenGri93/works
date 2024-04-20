@@ -1,0 +1,115 @@
+.page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+.header {
+    background-color: #1b1c1c;
+    padding: 20px 0;
+    color: #fff;
+}
+.header__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.header__menu-item {
+    margin: 0 15px;
+}
+.header__menu-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #eee;
+}
+.hero__title {
+    margin: 0;
+    font-size: 2.5em;
+    color: #007bff;
+}
+.hero__subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.hero__button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.card {
+    width: 500px;
+    margin: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card__image {
+    background-color: #ddd;
+    height: 325px;
+    line-height: 325px;
+    color: #333;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.card__title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card__text {
+    color: #555;
+    margin-bottom: 20px;
+}
+.card__button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    cursor: pointer;
+}
+.footer {
+    background-color: #1e1e1f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+@media (max-width: 768px) {
+    .header__menu {
+    flex-direction: column;
+    align-items: center;
+    }
+    .header__menu-item {
+    margin-bottom: 10px;
+    }
+    .features {
+    flex-direction: column;
+    align-items: center;
+    }
+    .card {
+    width: auto;
+    margin: 10px;
+    }
+    .hero__button,
+    .card__button {
+    padding: 10px 15px;
+    }
+}
